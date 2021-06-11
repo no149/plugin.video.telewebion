@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.Telewebion"
+version="1.0"
+name="Telewebion"
+provider-name="Meghdad">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.beautifulsoup4" version="4.6.3"/> 
+  <import addon="script.module.inputstreamhelper" version="0.5.0+matrix.1"/> 
+</requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="fa">افزونه تلوبیون</summary>
+  <description lang="fa_IR">ویدیوهای سایت آپارات در خانه شما</description> 
+  <assets>
+    <icon>resources/icon.png</icon>
+    <fanart>resources/fanart.jpg</fanart>   
+  </assets>
+  <language>fa</language>
+</extension>
+</addon>
